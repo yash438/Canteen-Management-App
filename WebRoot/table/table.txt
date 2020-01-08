@@ -1,0 +1,42 @@
+//database
+
+canteen
+
+//table
+
+create table product (name varchar(20) primary key,quantity int not null,price float not null,category_id varchar(20) not null);
+
+create table user (username varchar(20) primary key,name varchar(30),pass varchar(10),mobile varchar(10),address varchar(40));
+
+create table orders(product_name varchar(30),product_price varchar(10),product_quantity varchar(5),total varchar(10),deliver varchar(20),name varchar(20),mobile varchar(10),uname varchar(20),mode varchar(10),order_id int);
+
+create table payment (username varchar(20),mobile varchar(10),amount varchar(20),status varchar(10),order_id int);
+
+//cake  
+
+insert into product values('Chocolate Truffle',3,580,'cake');
+insert into product values('Black/White Forest',5,580,'cake');
+insert into product values('Chocolate Cake',4,520,'cake');
+insert into product values('Dutch Truffle',7,800,'cake');
+insert into product values('Pineapple Cake',7,550,'cake');
+insert into product values('Strawberry Cake',7,520,'cake');
+insert into product values('Orange Cake',7,700,'cake');
+insert into product values('Vanilla Cake',7,520,'cake');
+insert into product values('Sacher Torte',7,600,'cake');
+insert into product values('Vanilla Supreme',7,600,'cake');
+
+//pastry
+
+insert into product values('Choco Bomb',7,15,'pastry');
+insert into product values('Devils Delite',7,35,'pastry');
+insert into product values('Butter Scotch',7,35,'pastry');
+insert into product values('Pineapple',7,40,'pastry');
+insert into product values('Black Forest',7,45,'pastry');
+insert into product values('Dutch Almond',7,55,'pastry');
+insert into product values('Zebra Torte',7,50,'pastry');
+insert into product values('Chocho Mini',7,30,'pastry');
+insert into product values('Mango Premium',7,65,'pastry');
+insert into product values('Chocolate Dessert',7,55,'pastry');
+
+//snack
+

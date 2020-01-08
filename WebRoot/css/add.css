@@ -1,0 +1,32 @@
+#addproduct{
+background-image: url("../image/aa.jpg");
+margin-left:100px;
+margin-right:100px;
+border-radius:25px;
+
+}
+#addproduct td{
+padding: 15px;
+color: white;
+font-family: cursive;
+}
+input[type="button"]:HOVER{
+background-color: red;
+}
+input[type="button"]{
+	border-radius:25px;
+	color: white;
+	background-color: blue;
+	padding: 10px;
+	font-family: cursive;
+}
+#addproduct tr td select{
+border-radius:25px;
+padding: 5px;
+margin-top: 8px;
+color: black;
+font-family: cursive;
+}
+#addproduct tr td select option{
+padding: 5px;
+}
