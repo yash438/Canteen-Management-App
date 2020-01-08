@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbycart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/red">
+
+    </android.support.v7.widget.Toolbar>
+
+    <ListView
+        android:id="@+id/bycartitems"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        ></ListView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Price"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:padding="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:id="@+id/total_cart_group_price"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnn"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Order"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:onClick="clickForOrder"
+            android:padding="20dp"/>
+    </LinearLayout>
+
+</LinearLayout>
