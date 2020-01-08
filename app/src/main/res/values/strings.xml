@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">CanteenApp</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string-array name="item">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string name="textdata">
+        In below box enter paytm mobile number from which payment is made.
+        (or)
+        for COD ignore below Field !
+    </string>
+</resources>
